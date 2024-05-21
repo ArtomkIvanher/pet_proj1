@@ -29,3 +29,11 @@
         color: $light-color;
     }
 }
+
+.button_block{
+    .this_time,
+    .this_city{
+        color: $base-color;
+        font-size: 25px;
+    }
+}

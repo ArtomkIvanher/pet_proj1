@@ -1,0 +1,52 @@
+@import '../../../../styles/variables.scss';
+
+.this_day_info {
+    position: relative;
+    padding: 40px;
+    max-width: 750px;
+    width: 100%;
+    overflow: hidden;
+    background-color: $light-background;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+}
+
+.item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    &:last-of-type{
+        margin-bottom: 0;
+    }
+    .indicator,
+    .indicator_name{
+        margin-right: 20px;
+    }
+    .indicator{
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        background-color: $light-background;
+        box-shadow: $box-shadow;
+        border-radius: $border-radius;
+    }
+    .indicator_name,
+    .indicator_value{
+        font-style: 14px;
+    }
+    .indicator_name{
+        color: $base-color;
+    }
+    .indicator_value{
+        color: $light-color;
+    }
+}
+
+.cloud_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

@@ -1,3 +1,4 @@
+import { Days } from './Days/Days'
 import s from './Home.module.scss'
 import { ThisDay } from './ThisDay/ThisDay'
 import { ThisDayInfo } from './ThisDayInfo/ThisDayInfo'
@@ -11,6 +12,8 @@ export const Home = (props: Props) => {
 				<ThisDay />
 				<ThisDayInfo />
 			</div>
+
+			<Days/>
 		</div>
 	)
 }

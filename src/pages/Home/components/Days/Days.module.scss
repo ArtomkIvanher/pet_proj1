@@ -18,6 +18,7 @@
 		transition: 0.3s;
 		cursor: pointer;
 		padding: 10px;
+		margin-bottom: 10px;
 	}
 	.day_data {
 		margin-bottom: 7px;
@@ -52,9 +53,11 @@
 	display: flex;
 	justify-content: space-between;
     margin-bottom: 7px;
+	flex-wrap: wrap;
 }
 .tabs_wrapper {
     display: flex;
+	flex-wrap: wrap;
 }
 .tab,
 .cancel {

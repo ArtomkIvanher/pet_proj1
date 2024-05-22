@@ -11,7 +11,9 @@ export const ThisDay = (props: Props) => {
 					<div className={s.this_temp}>20°</div>
 					<div className={s.this_day_name}>Сьогодені</div>
 				</div>
-				<GlobalSvgSelector id='sun' />
+				<div className={s.img}>
+					<GlobalSvgSelector id='sun' />
+				</div>
 			</div>
 			<div className={s.button_block}>
 				<div className={s.this_time}>

@@ -12,7 +12,6 @@ export const Home = (props: Props) => {
 				<ThisDay />
 				<ThisDayInfo />
 			</div>
-
 			<Days/>
 		</div>
 	)

@@ -11,14 +11,14 @@ export const ThisDay = (props: Props) => {
 					<div className={s.this_temp}>20°</div>
 					<div className={s.this_day_name}>Сьогодені</div>
 				</div>
-        <GlobalSvgSelector id='sun'/>
+				<GlobalSvgSelector id='sun' />
 			</div>
 			<div className={s.button_block}>
 				<div className={s.this_time}>
 					Час: <span>21:54</span>
 				</div>
 				<div className={s.this_city}>
-					Час: <span>Kyiv</span>
+					Місто: <span>Kyiv</span>
 				</div>
 			</div>
 		</div>

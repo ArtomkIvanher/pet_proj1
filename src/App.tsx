@@ -8,7 +8,7 @@ import './styles/index.scss'
 function App() {
 	return (
 		<div className='App'>
-			<Popup />
+			{/* <Popup /> */}
 			<div className='container'>
 				<Header />
 				<Routes>

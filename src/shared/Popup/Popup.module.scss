@@ -44,8 +44,10 @@
 		cursor: pointer;
 	}
 	svg:hover {
+		transition: 0.3s;
 		transform: rotate(360deg);
 	}
+	
 }
 
 .day {

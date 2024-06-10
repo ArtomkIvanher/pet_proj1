@@ -2,10 +2,16 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    &>div{
+        margin: 0 10px;
+    }
 }
 
 @media (max-width: 714px) {
     .wrapper{
         flex-wrap: wrap;
+        &>div{
+            margin: 10px;
+        }
     }
 }

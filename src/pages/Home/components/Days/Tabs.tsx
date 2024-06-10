@@ -18,12 +18,12 @@ export const Tabs = (props: Props) => {
 		<div className={s.tabs}>
 			<div className={s.tabs_wrapper}>
 				{tabs.map(tab => (
-					<div className={s.tab} key={tab.value}>
+					<button className={s.tab} key={tab.value}>
 						{tab.value}
-					</div>
+					</button>
 				))}
 			</div>
-            <div className={s.cancel}>Скасувати</div>
+            <button className={s.cancel}>Скасувати</button>
 		</div>
 	)
 }

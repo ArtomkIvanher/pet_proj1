@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .header{
     font-size: 40px;
     display: flex;
@@ -21,8 +23,14 @@
     }
 }
 
+.logo,
+.change_theme{
+    cursor: pointer;
+}
+
 .title{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 25px;
+    color: $primary-color;
 }
